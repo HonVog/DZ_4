@@ -10,6 +10,8 @@ public:
 		arrFlat.push_back(pArrFlat);
 	}
 
+	~house() {}
+
 	void print() {
 		for (int i{}; i < arrFlat.size(); ++i)
 			arrFlat[i].print();

@@ -9,7 +9,6 @@ class human
 	std::string name;
 	std::string surname;
 	std::string faname;
-
 public:
 	// конструктор
 	human(std::string pName, std::string pSurname, std::string pFaname) :
@@ -30,12 +29,12 @@ public:
 
 	// выведение данных
 	void print() {
-		if (name!="")
-		std::cout << "Name :" << name << std::endl;
-		if (surname !="")
-		std::cout << "Surname :" << surname << std::endl;
-		if (faname!="")
-		std::cout << "Patronymic :" << faname << std::endl;
+		if (name != "")
+			std::cout << "Name :" << name << std::endl;
+		if (surname != "")
+			std::cout << "Surname :" << surname << std::endl;
+		if (faname != "")
+			std::cout << "Patronymic :" << faname << std::endl;
 	}
 };
 

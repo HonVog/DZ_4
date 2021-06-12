@@ -9,6 +9,7 @@ public:
 	flat(human& pArrHuman) {
 		arrHuman.push_back(pArrHuman);
 	}
+
 	~flat() {}
 
 	void print() {
