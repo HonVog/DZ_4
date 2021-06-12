@@ -1,9 +1,15 @@
 ﻿#include <iostream>
+#include "fail.h"
 
 int main() {
+	while (true)
+	{
+		human h1;
 
 
-    std::cout << "Hello World!\n";
+
+	}
+	return 0;
 }
 
 
